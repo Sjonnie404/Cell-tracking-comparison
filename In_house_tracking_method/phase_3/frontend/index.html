@@ -1,0 +1,32 @@
+<script src="https://unpkg.com/vue@3"></script>
+
+<div id="app" style="width: 600px">
+	<input type="range" min="1" max="270" v-model="frame" style="width: 100%"><br/>
+	<img :src="frameUrl(frame)" style="width: 100%">
+</div>
+
+
+
+<script>
+  const { createApp } = Vue
+
+  createApp({
+    data() {
+      return {
+        message: 'Hello Vue!',
+	frame: 0
+      }
+    },
+	async mounted(){
+		let l = await fetch( "../frames/" )
+		this.frames = l
+		this.frame = 1
+	},
+	methods : {
+		frameUrl : function(i){
+			if( i == 0 ){ return "" }
+			return `../frame/${frames[i]}`
+		}
+	}
+  }).mount('#app')
+</script>
