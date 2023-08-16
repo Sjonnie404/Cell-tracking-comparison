@@ -23,7 +23,7 @@ A tutorial for the track correction webapp, can be found [here](https://github.c
 #### Trackmate
 Trackmate is a plugin for the ImageJ application, which can be downloaded [here](https://imagej.net/software/fiji/downloads).
 The installation steps for installing the Trackmate plugin can be found [here](https://imagej.net/plugins/trackmate/). <br>
-A tutorial (including a list of used parameters) can  be found [here](https://github.com/Sjonnie404/Cell-tracking-comparison/blob/main/Other_tracking_methods/usage-tutorial.md)
+A tutorial (including a list of used parameters) can  be found [here](https://github.com/Sjonnie404/Cell-tracking-comparison/blob/main/Other_tracking_methods/usage-turorial.md)
 
 #### CellProfiler
 Cellprofiler can be downloaded from this [link](https://cellprofiler.org/releases).
