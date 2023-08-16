@@ -12,6 +12,7 @@ Tracking cell microscopy video’s is a challenging and time consuming task. We 
 
 #### in-house method
 All scripts can be found in the `In_house_tracking_method` folder. Video files can be found [here](https://computational-immunology.org/hfsp/).
+Masked videos can be downloaded [here](https://surfdrive.surf.nl/files/index.php/s/lw58zvo9nltxSy3?path=%2FMasked%20videos).
 Tracking can only be performed on .png or .jpg images. .CZI files can be converted using the `phase_1_czi_jpg_and_raw_stardist.py` script. Automatic tracking can be performed using the `phase_2_do_tracking.ipynb` file.
 Manually correcting the tracks can be done using the `phase_3` folder. Please put the `tracks.csv` file in the `data` folder, and paste the images into the `frames` folder for visual representation. Webapp can be started byrunning the run.sh file. A flask server will be started which can be accessed trough the internet browser, which can be accessed trough [here](http://127.0.0.1:5001) (localhost:5001).
 
