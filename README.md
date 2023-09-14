@@ -1,7 +1,7 @@
 # Cell tracking comparison
 
 ### Background
-Repository that holds all the information and scripts used for the results discussed in the paper: <br>*'Integrating Human Interaction For Improved Accuracy in Cell Tracking Methods'* - [link]([TODO add link to paper in repo when uploaded](https://github.com/Sjonnie404/Cell-tracking-comparison/blob/main/Report_general_research_profile_HFSP_SI_Pullens.pdf))
+Repository that holds all the information and scripts used for the results discussed in the paper: <br>*'Integrating Human Interaction For Improved Accuracy in Cell Tracking Methods'* - [link](https://github.com/Sjonnie404/Cell-tracking-comparison/blob/main/Report_general_research_profile_HFSP_SI_Pullens.pdf)
 
 This paper is about the comparison of cell tracking software: Trackmate & Cellprofiler, against our own methods. Using our own videos.
 
